@@ -18,6 +18,7 @@ input {
 
 a {
   @apply text-link;
+  @apply hover:underline;
 }
 
 .App {

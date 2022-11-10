@@ -7,6 +7,9 @@ module.exports = {
     textColor: {
       white: "#FFF",
       black: "#000",
+      red: {
+        error: '#FF0000'
+      },
       purple: {
         100: '#7858A6',
         200: '#5B4B8A',

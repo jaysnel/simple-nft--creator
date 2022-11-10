@@ -47,6 +47,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <NavBar />
+      <h1  className='mt-5'>Simple NFT Creator</h1>
       <Routes>
         <Route path='/' element={<Home currentSigner={currentSigner}/>} />
       </Routes>
