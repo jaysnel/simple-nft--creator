@@ -4,7 +4,9 @@ This project was created to learn more about the front end web3 space. Here you 
 
 This currently only mints to the contract I have provided. Additioal support to your own contract is in the works!
 
-Contract for this lives here: https://github.com/jaysnel/js-nft
+UI: https://simple-nft-creator.netlify.app/
+
+Contract for this lives here: https://github.com/jaysnel/simple-nft-creator-contract
 
 ### `yarn start`
 

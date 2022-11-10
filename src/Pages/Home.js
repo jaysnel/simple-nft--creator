@@ -96,6 +96,7 @@ export default function Home(props) {
             <input type="" className='border border-black p-2' placeholder='NFT Image Url' value={userNFTImageUrl} onChange={updateUserNFTNImageUrl}/>
         </div>
         {nftCreated && <div className='mb-5'><a href={nftCollectionLink} target="_blank" rel="noreferrer">View NFT</a></div>}
+        {nftCreated && <div className='mb-5'>Note: If you do not see your NFT, please give it a couple min to show.</div>}
         {errorMessage && <div className='text-red-error'>Error: {errorMessage}</div>}
         {
             isCreatingNFT 
