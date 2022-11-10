@@ -108,7 +108,7 @@ export default function Home(props) {
                 buttonFunction={createNFT}/>
         }
         <div className='mt-5'>
-            Created by Jaylan Snelson. <a href="https://github.com/jaysnel/js-nft-web3-ui" target="_blank" rel="noopener noreferrer">Github</a>
+            Created by Jaylan Snelson. <a href="https://github.com/jaysnel/simple-nft-creator-ui" target="_blank" rel="noopener noreferrer">Github</a>
         </div>
     </>
   )
